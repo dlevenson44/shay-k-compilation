@@ -1,30 +1,30 @@
 import React from 'react'
 
+import Stack from '@mui/material/Stack'
 
-import { Header, Grid, GridItem, Footer } from './components'
+import { Footer, Grid, Header, GridItemCard } from './components'
+import img from './paulie.jpeg'
 
 import './App.css'
 
 function App() {
+  const sampleData = [1, 2, 3, 4, 5, 6, 7, 8 , 9, 10, 11, 12]
+
   return (
-    <div>
+    <Stack alignItems="center">
       <Header />
       <Grid>
-        <GridItem>ONE</GridItem>
-        <GridItem>TWO</GridItem>
-        <GridItem>THREE</GridItem>
-        <GridItem>FOUR</GridItem>
-        <GridItem>FIVE</GridItem>
-        <GridItem>SIX</GridItem>
-        <GridItem>SEVEN</GridItem>
-        <GridItem>EIGHT</GridItem>
-        <GridItem>NINE</GridItem>
-        <GridItem>TEN</GridItem>
-        <GridItem>ELEVEN</GridItem>
-        <GridItem>TWELVE</GridItem>
+        {sampleData.map(dataItem => (
+          <GridItemCard
+            key={dataItem}
+            title="Title"
+            description="This is a description for the piece"
+            img={img}
+          />
+        ))}
       </Grid>
       <Footer />
-    </div>
+    </Stack>
   );
 }
 

@@ -7,7 +7,7 @@ import img from '../paulie.jpeg'
 
 const Header = () => {
   return (
-    <Stack direction="row">
+    <Stack direction="row" mt={3} mb={5} spacing={3} alignItems="center">
       <img src={img} height="100" width="100" alt="header imge" />
       <Stack>
         <Typography variant="h3">Shay-K-Compilation</Typography>

@@ -24,7 +24,7 @@ const GridItemCard = ({ img, title, description }) => {
     <Card sx={{ display: 'flex', alignItems: 'center', flexDirection: 'column' }} onClick={() => setShowModal(!showModal)}>
       <Typography variant="h4">{title}</Typography>
       <img src={img} height="100" width="100" alt="header imge" style={{ borderRadius: '5%', objectFit: 'contain' }} />
-      <CardContent>{description}</CardContent>
+      <CardContent sx={{ textAlign: 'center' }}>{description}</CardContent>
       <Modal
         open={showModal}
         onClose={() => setShowModal(false)}

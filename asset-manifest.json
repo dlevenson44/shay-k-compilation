@@ -1,14 +1,13 @@
 {
   "files": {
     "main.css": "/shay-k-compilation/static/css/main.39b93457.css",
-    "main.js": "/shay-k-compilation/static/js/main.a6c02754.js",
+    "main.js": "/shay-k-compilation/static/js/main.7526fb54.js",
     "static/js/787.73fc30dd.chunk.js": "/shay-k-compilation/static/js/787.73fc30dd.chunk.js",
     "static/media/jungle_cats.jpg": "/shay-k-compilation/static/media/jungle_cats.bf916c1cf06eed0be5e6.jpg",
     "static/media/black_flower.jpg": "/shay-k-compilation/static/media/black_flower.b28ef6b02b95a82023fa.jpg",
     "static/media/fruit.jpg": "/shay-k-compilation/static/media/fruit.47bbed76b762e5a77a94.jpg",
     "static/media/blue_flower.jpg": "/shay-k-compilation/static/media/blue_flower.7122c0354c1c63433572.jpg",
     "static/media/woman.jpg": "/shay-k-compilation/static/media/woman.8633e2a2eea903bfccba.jpg",
-    "static/media/small_flower_combo.jpg": "/shay-k-compilation/static/media/small_flower_combo.528d8c5635014a4c0cd1.jpg",
     "static/media/priestess.jpg": "/shay-k-compilation/static/media/priestess.481360fb3c472fdd2117.jpg",
     "static/media/groovy.jpg": "/shay-k-compilation/static/media/groovy.77a95d46e5d79a767dae.jpg",
     "static/media/bare.jpg": "/shay-k-compilation/static/media/bare.865215da23af3af0a37e.jpg",
@@ -20,11 +19,11 @@
     "static/media/paulie.jpeg": "/shay-k-compilation/static/media/paulie.3e0a546b2615a6d17f74.jpeg",
     "index.html": "/shay-k-compilation/index.html",
     "main.39b93457.css.map": "/shay-k-compilation/static/css/main.39b93457.css.map",
-    "main.a6c02754.js.map": "/shay-k-compilation/static/js/main.a6c02754.js.map",
+    "main.7526fb54.js.map": "/shay-k-compilation/static/js/main.7526fb54.js.map",
     "787.73fc30dd.chunk.js.map": "/shay-k-compilation/static/js/787.73fc30dd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.39b93457.css",
-    "static/js/main.a6c02754.js"
+    "static/js/main.7526fb54.js"
   ]
 }

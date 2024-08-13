@@ -35,7 +35,7 @@ const GridItemCard = ({ img, title, description }) => {
           <Box sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', borderRadius: '5%' }}>
             <img src={img} height="400" width="250" alt="header imge" style={{ borderRadius: '5%', objectFit: 'contain' }} />
             <Typography variant="h4"  sx={{ mt: 2, fontWeight: 'bolder' }}>{title}</Typography>
-            <Typography id="modal-modal-description">{description}</Typography>
+            <Typography id="modal-modal-description" sx={{ textAlign: 'center' }}>{description}</Typography>
           </Box>
         </Box>
       </Modal>

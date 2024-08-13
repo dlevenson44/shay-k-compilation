@@ -4,6 +4,7 @@ import Stack from '@mui/material/Stack'
 
 import { Footer, Grid, Header, GridItemCard } from './components'
 import img from './paulie.jpeg'
+import gridConfig from './utils/config'
 
 import './App.css'
 
@@ -14,14 +15,22 @@ function App() {
     <Stack alignItems="center">
       <Header />
       <Grid>
-        {sampleData.map(dataItem => (
+        {gridConfig.map(({ title, description, image }) => (
+          <GridItemCard
+            key={title}
+            title={title}
+            description={description}
+            img={image}
+          />
+        ))}
+        {/* {sampleData.map(dataItem => (
           <GridItemCard
             key={dataItem}
             title="Title"
             description="This is a description for the piece"
             img={img}
           />
-        ))}
+        ))} */}
       </Grid>
       <Footer />
     </Stack>

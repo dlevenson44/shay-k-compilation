@@ -23,7 +23,7 @@ const GridItemCard = ({ img, title, description }) => {
   return (
     <Card sx={{ display: 'flex', alignItems: 'center', flexDirection: 'column' }} onClick={() => setShowModal(!showModal)}>
       <Typography variant="h4">{title}</Typography>
-      <img src={img} height="100" width="100" alt="header imge" />
+      <img src={img} height="100" width="100" alt="header imge" style={{ borderRadius: '5%' }} />
       <CardContent>{description}</CardContent>
       <Modal
         open={showModal}
@@ -33,8 +33,8 @@ const GridItemCard = ({ img, title, description }) => {
       >
         <Box sx={style}>
           <Box sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', borderRadius: '5%' }}>
-            <img src={img} height="100" width="100" alt="header imge" />
-            <Typography variant="h4"  sx={{ mt: 2 }}>{title}</Typography>
+            <img src={img} height="400" width="250" alt="header imge" style={{ borderRadius: '5%' }} />
+            <Typography variant="h4"  sx={{ mt: 2, fontWeight: 'bolder' }}>{title}</Typography>
             <Typography id="modal-modal-description">{description}</Typography>
           </Box>
         </Box>
